@@ -1,6 +1,6 @@
 import React, {Fragment, Component } from 'react';
 import {
-    SafeAreaView,
+    Image,
     StyleSheet,
     TouchableOpacity,
     View,
@@ -16,6 +16,7 @@ class RegForm2 extends Component {
         return (
             <View style={styles.container}>
                 <View style={styles.regForm}>
+                    <Image />
                     <Text style={styles.header}>Registeration</Text>
                     <TextInput style={styles.textInput} placeholder="Your name" placeholderTextColor="#FFF" underlineColorAndroid={'transparent'} />
                     <TextInput style={styles.textInput} placeholder="Your email" placeholderTextColor="#FFF" underlineColorAndroid={'transparent'} />

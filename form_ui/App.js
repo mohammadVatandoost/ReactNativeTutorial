@@ -16,10 +16,11 @@ import {
   StatusBar,
 } from 'react-native';
 import RegForm1 from './Components/RegForm1/RegForm1';
+import RegForm2 from './Components/RegForm1/RegForm2';
 
 const App = () => {
   return (
-    <RegForm1/>
+    <RegForm2/>
   );
 };
 
